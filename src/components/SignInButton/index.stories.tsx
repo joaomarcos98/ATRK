@@ -6,4 +6,4 @@ export default {
     component: SignInButton
 } as Meta;
 
-export const Template: Story = (args) => <SignInButton {...args} />;
+export const Template: Story = (args) => <SignInButton onSignIn={() => { }} {...args} />;

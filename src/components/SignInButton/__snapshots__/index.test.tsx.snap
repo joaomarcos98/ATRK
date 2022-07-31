@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignInButton/> should be render correctly 1`] = `
+.c0 {
+  color: #8F8F8F;
+  padding: 1.6rem 4.0rem;
+  border-radius: 0.4rem;
+  border: 2px solid #8F8F8F;
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+
+.c0:hover {
+  -webkit-filter: brightness(0.95);
+  filter: brightness(0.95);
+}
+
+.c0:active {
+  -webkit-filter: brightness(0.90);
+  filter: brightness(0.90);
+}
+
+<button
+  class="c0"
+>
+  <svg
+    fill="currentColor"
+    height="1em"
+    viewBox="0 0 256 256"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="none"
+      height="256"
+      width="256"
+    />
+    <path
+      d="M128,128h88a88.1,88.1,0,1,1-25.8-62.2"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="16"
+    />
+  </svg>
+  <span>
+     Sign In with Google
+  </span>
+</button>
+`;

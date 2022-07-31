@@ -1,4 +1,4 @@
-import { screen } from "@testing-library/react";
+import { fireEvent, screen } from "@testing-library/react";
 import { renderWithTheme } from "utils/tests/renderWithTheme";
 import userEvent from '@testing-library/user-event'
 
@@ -20,7 +20,7 @@ describe("<SignInButton/>", () => {
     it("should be when user click dispath onSignIn", () => {
         renderWithTheme(<SignInButton onSignIn={mock} />);
 
-        userEvent.click(screen.getByRole("button", { name: /Sign In with Google/i }))
+        fireEvent.click(screen.getByRole("button", { name: /Sign In with Google/i }))
 
         expect(mock).toHaveBeenCalledTimes(1);
     });
