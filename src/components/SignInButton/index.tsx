@@ -1,5 +1,5 @@
 import * as S from "./styles"
-import { GoogleLogo } from "phosphor-react"
+import GoogleLogo from "../../assets/google.svg"
 
 type SignInButton = {
     onSignIn(): void
@@ -7,7 +7,7 @@ type SignInButton = {
 
 export const SignInButton = ({ onSignIn }: SignInButton) => (
     <S.Content onClick={onSignIn}>
-        <GoogleLogo />
+        <img src={GoogleLogo} alt="" />
         <span> Sign In with Google</span>
     </S.Content >
 )
