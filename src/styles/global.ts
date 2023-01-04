@@ -19,4 +19,11 @@ export const GlobalStyles = createGlobalStyle`
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
         Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+
+    hr{
+        width: 100%;
+        height: 1px;
+        background-color: #dadada;
+        margin: 12px;
+    }
 `;

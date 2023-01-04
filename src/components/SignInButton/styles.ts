@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const Content = styled.button`
     ${({ theme }) => css`
-        color: ${theme.colors.gray};
+        color: ${theme.colors.darkGray};
         padding: ${theme.spacings.xxsmall} ${theme.spacings.large};
         border-radius: ${theme.border.radius};
         border: 2px solid ${theme.colors.gray};
@@ -24,6 +24,11 @@ export const Content = styled.button`
 
         :active{
             filter: brightness(0.90);
+        }
+
+        &:focus-within {
+            outline: none;
+            box-shadow: 0 0 0.5rem ${theme.colors.primary};
         }
 
         cursor: pointer;

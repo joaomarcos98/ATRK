@@ -23,10 +23,11 @@ export default {
     },
     colors: {
         green: "#48bf53",
+        background: "#202124",
         primary: "#48bf53",
         white: '#FAFAFA',
-        black: '#030517',
-        lightGray: '#EAEAEA',
+        black: '#121212 ',
+        lightGray: '#F4F4F4',
         gray: '#8F8F8F',
         darkGray: '#2E2F42',
         red: '#FF6347'

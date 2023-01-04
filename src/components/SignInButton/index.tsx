@@ -1,5 +1,6 @@
 import * as S from "./styles"
 import GoogleLogo from "../../assets/google.svg"
+import Image from "next/image"
 
 type SignInButton = {
     onSignIn(): void
@@ -7,7 +8,7 @@ type SignInButton = {
 
 export const SignInButton = ({ onSignIn }: SignInButton) => (
     <S.Content onClick={onSignIn}>
-        <img src={GoogleLogo} alt="" />
-        <span> Sign In with Google</span>
+        <Image src={GoogleLogo} alt="Google" />
+        <span> Entrar com o Google</span>
     </S.Content >
 )
